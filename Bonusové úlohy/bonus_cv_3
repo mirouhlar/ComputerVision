@@ -1,0 +1,5 @@
+#BONUS
+#Vypoctajte kolko roznych histogramov existuje pre sedotonovy obrazok (0-255) s rozmermi h * w (+2b)
+
+# kombinacie s opakovanim kde N je mnozina kategorii (256) a K je k-tica prvkov ktore sa mozu opakovat (w*h)
+# a teda C' = (N + K - 1, K) = ((256 + (h*w) - 1)!) / ((256 - 1)! * (h*w)!)
